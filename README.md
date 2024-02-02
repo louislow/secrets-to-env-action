@@ -9,6 +9,11 @@ This action provides the following functionality for GitHub Actions users:
 - Read Github secrets and export **all** of them as environment variables
 - Optionally including, excluding and manipulating variables as needed before importing
 
+Under the hood, it is using .github/action API
+exportVariable
+to do it.
+https://github.com/actions/toolkit/tree/master/packages/core#exporting-variables
+
 <table>
 <tr>
 <th>
